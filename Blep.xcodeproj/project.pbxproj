@@ -12,6 +12,8 @@
 		819543242140365A000F2B4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819543222140365A000F2B4D /* Main.storyboard */; };
 		819543262140365B000F2B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819543252140365B000F2B4D /* Assets.xcassets */; };
 		819543292140365B000F2B4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819543272140365B000F2B4D /* LaunchScreen.storyboard */; };
+		8195433121405236000F2B4D /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8195433021405236000F2B4D /* CGPoint+Extensions.swift */; };
+		81954333214064A3000F2B4D /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81954332214064A3000F2B4D /* Bullet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		819543252140365B000F2B4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		819543282140365B000F2B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8195432A2140365B000F2B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8195433021405236000F2B4D /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		81954332214064A3000F2B4D /* Bullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		8195431D2140365A000F2B4D /* Blep */ = {
 			isa = PBXGroup;
 			children = (
+				8195433021405236000F2B4D /* CGPoint+Extensions.swift */,
+				81954332214064A3000F2B4D /* Bullet.swift */,
 				8195431E2140365A000F2B4D /* AppDelegate.swift */,
 				819543202140365A000F2B4D /* ViewController.swift */,
 				819543222140365A000F2B4D /* Main.storyboard */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				819543212140365A000F2B4D /* ViewController.swift in Sources */,
+				8195433121405236000F2B4D /* CGPoint+Extensions.swift in Sources */,
 				8195431F2140365A000F2B4D /* AppDelegate.swift in Sources */,
+				81954333214064A3000F2B4D /* Bullet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
